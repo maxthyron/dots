@@ -1,0 +1,12 @@
+.DS_Store
+
+.dotfiles
+
+.vim/.netrwhist
+.vim/.backup/*
+.vim/.undo/*
+.vim/.swp/*
+
+.config/nvim/backup/*
+.config/vim/undo/*
+.config/vim/swap/*
