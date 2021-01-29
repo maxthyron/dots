@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"dictionary": "Packages/Dictionaries/Russian-English Bilingual.dic",
+	"drag_text": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"margin": -10,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
