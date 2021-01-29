@@ -8,5 +8,7 @@
 .vim/.swp/*
 
 .config/nvim/backup/*
-.config/vim/undo/*
-.config/vim/swap/*
+.config/nvim/undo/*
+.config/nvim/swap/*
+.config/nvim/plugins/*
+.config/nvim/autoload/plug.vim
