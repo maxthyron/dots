@@ -9,9 +9,10 @@ mapkey('p', "Open the clipboard's URL in the current tab", function() {
 Hints.characters = 'asdfgyuiopqwertnmzxcvb';
 
 settings.defaultSearchEngine = 'd';
-settings.hintAlign = 'left';
+settings.hintAlign = 'right';
 settings.scrollStepSize = 200;
 settings.tabsThreshold = 10;
+settings.tabsMRUOrder = false;
 settings.modeAfterYank = 'Normal';
 
 // Search Engines
@@ -28,7 +29,7 @@ addSearchAliasX('aw', 'arch wiki', 'https://wiki.archlinux.org/index.php?title=S
 addSearchAliasX('d', 'duckduckgo', 'https://duckduckgo.com/?q=', 's');
 addSearchAliasX('gh', 'github', 'https://github.com/search?utf8=✓&q=', 's');
 addSearchAliasX('st', 'steam', 'https://store.steampowered.com/search/?term=', 's');
-addSearchAliasX('y', 'invidious', 'https://invidio.us/search?q=', 's');
+addSearchAliasX('yt', 'youtube', 'https://www.youtube.com/results?search_query=', 's');
 
 // ---- Unmap -----
 
@@ -70,8 +71,8 @@ mapkey('gF', '#12Open Chrome Flags', function() {
 
 
 /* Theme Settings */
-Hints.style('border: solid 2px #4C566A; color:#A3BE8C; background: initial; background-color: #3B4252;');
-Hints.style("border: solid 2px #4C566A !important; padding: 1px !important; color: #E5E9F0 !important; background: #3B4252 !important;", "text");
+Hints.style('font-size: 12px; border: solid 2px #4C566A; color:#A3BE8C; background: initial; background-color: #3B4252;');
+Hints.style("font0-size: 12px; border: solid 2px #4C566A !important; padding: 1px !important; color: #E5E9F0 !important; background: #3B4252 !important;", "text");
 Visual.style('marks', 'background-color: #A3BE8C99;');
 Visual.style('cursor', 'background-color: #88C0D0;');
 
@@ -80,7 +81,7 @@ settings.theme = `
 :root {
   /* Font */
   --font: 'Fira Code', 'Source Code Pro';
-  --font-size: 14;
+  --font-size: 16;
   --font-weight: bold;
 
   --fg: #E5E9F0;
